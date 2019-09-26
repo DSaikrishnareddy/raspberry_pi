@@ -1,0 +1,11 @@
+RASPISTILL:
+raspistill -o Desktop/image.jpg
+ //raspistill is to take photo
+// -o Desktop/image.jpg to save image in that folder
+
+
+raspistill -o Desktop/image-small.jpg -w 640 -h 480
+//-w and -h to change width and height of the image
+ RASPIVID:
+raspivid -o Desktop/video.h264
+//to take video
