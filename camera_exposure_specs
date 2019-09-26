@@ -1,0 +1,19 @@
+off
+auto
+night
+nightpreview
+backlight
+spotlight
+sports
+snow
+beach
+verylong
+fixedfps
+antishake
+fireworks
+
+camera.start_preview()
+camera.exposure_mode = 'beach'
+sleep(5)
+camera.capture('/home/pi/Desktop/beach.jpg')
+camera.stop_preview()
