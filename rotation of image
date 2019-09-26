@@ -1,0 +1,2 @@
+camera = PiCamera()
+camera.rotation = 180
