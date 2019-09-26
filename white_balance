@@ -1,0 +1,16 @@
+off
+auto
+sunlight
+cloudy
+shade
+tungsten
+fluorescent
+incandescent
+flash
+horizon
+
+camera.start_preview()
+camera.awb_mode = 'sunlight'
+sleep(5)
+camera.capture('/home/pi/Desktop/sunlight.jpg')
+camera.stop_preview()
