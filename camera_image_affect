@@ -1,0 +1,27 @@
+//none
+//negative
+//solarize
+//sketch
+//denoise
+//emboss
+//oilpaint
+//hatch
+//gpen
+//pastel
+//watercolor
+//film
+//blur
+//saturation
+//colorswap
+//washedout
+//posteris/e
+//colorp//oint
+//colorb//alance
+//cartoo//n
+//deinterlace1
+//deinterlace2
+camera.start_preview()
+camera.image_effect = 'colorswap'
+sleep(5)
+camera.capture('/home/pi/Desktop/colorswap.jpg')
+camera.stop_preview()
